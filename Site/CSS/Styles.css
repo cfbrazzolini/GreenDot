@@ -1,0 +1,23 @@
+html, body {
+  background-color: gray;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: Century Gothic light, Helvetica, Ariel, Sans-serif;
+}
+#pageWrap{
+  background-color: black;
+}
+.section {
+  height: 500px;
+}
+.textWrap {
+  width: 75%;
+  margin: auto;
+}
+#header {
+  color: green;
+}
+#section1 {
+  background-color: green;
+}
