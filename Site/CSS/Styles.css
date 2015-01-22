@@ -65,3 +65,9 @@ nav ul li a {
 nav ul li a:hover{
   color: #8DBC3A;
 }
+#header h2 {
+  font-size: 75px;
+  line-height:125px;
+  text-align: center;
+  margin-top: 50px;
+}
