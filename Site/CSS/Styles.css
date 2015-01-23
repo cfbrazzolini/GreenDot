@@ -10,22 +10,64 @@ div {
   padding: 0;
   border: 0;
 }
+h1 {
+  font-size: 50px;
+}
 .section {
-  height: 500px;
+  padding: 0 0 50px 0;
+}
+.left {
+  display: block;
+  float:left;
+  width: 50%;
+  height: 100%;
+}
+.left h1 {
+  font-size: 72px;
+  padding-right: 15px;
+}
+.right {
+  display: block;
+  float: right;
+  width: 50%;
+}
+.clear {
+  clear:both;
+  line-height: 0;
 }
 .textWrap {
   padding-top: 20px;
   width:  60%;
   margin: auto;
+  height: 100%;
 }
 #header {
-  color: #8DBC3A;
+  color: #8DBC3A; /*GreendotGreen*/
   background-color: black;
   margin: 0;
-  padding: 0;
 }
 #section1 {
-  background-color: #8DBC3A;
+  background-color: #8DBC3A; /*GreendotGreen*/
+}
+#section1 .left{
+ text-align: right;
+}
+#section2 {
+  background-color: white;
+}
+#section2 .left {
+  text-align: center;
+}
+#events {
+  font-size: 50px;
+}
+#getInvolved {
+  font-size: 100px;
+  color: #8DBC3A; /*GreendotGreen*/
+}
+#calendarIcon {
+  width: 400px;
+  height: 400px;
 }
 #menu {
   background: white;
@@ -70,4 +112,25 @@ nav ul li a:hover{
   line-height:125px;
   text-align: center;
   margin-top: 50px;
+}
+.testimonies {
+  padding: 5px 0 20px 0;
+  text-align: center;
+  background-color: black;
+  color: #8DBC3A; /*GreendotGreen*/
+}
+.testimonies img {
+  height: 320px;
+  width: 480px;
+}
+#eventsOnFacebook {
+  text-align: center;
+  background-color: black;
+  width: 420px;
+  margin: auto;
+}
+#eventsOnFacebook h1 {
+  font-size: 36px;
+  color: white;
+  padding: 15px 5px 0 5px;
 }
