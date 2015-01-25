@@ -25,16 +25,17 @@
 						echo "Invalid Sender's Email";
 					}
 					else{
-						$sender_email = "snishioka-healy16@my.whitworth.edu";
+						$destination_email = "snishioka-healy16@my.whitworth.edu";
 
 						
 						$message = $_POST['feedback'];
+						$subject = "Green Dot Contact Received"
 						$headers = 'From:'. $email . "\r\n"; // Sender's Email
-						$headers .= 'Cc:'. $email . "\r\n"; // Carbon copy to Sender
+						$headers .= 'CC:'. $email . "\r\n"; // Carbon copy to Sender
 						// Message lines should not exceed 70 characters (PHP rule), so wrap it
 						$message = wordwrap($message, 70);
 						// Send Mail By PHP Mail Function
-						mail($sender_email, $message, $headers);
+						mail($destination_email,,$subject, $message, $headers);
 						echo "Your mail has been sent successfuly ! Thank you for your feedback";
 					}
 				}
