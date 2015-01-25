@@ -13,7 +13,8 @@
 			if($_SERVER['REQUEST_METHOD'] == 'POST'){
 			// Checking For Blank Fields..
 				if($_POST["name"]==""||$_POST["email"]==""||$_POST["feedback"]==""){
-					echo "Fill All Fields..";
+					header("location:index.html#form");
+
 				}else{
 					// Check if the "Sender's Email" input field is filled out
 					$email=$_POST['email'];
@@ -39,14 +40,10 @@
 						echo "Your mail has been sent successfuly ! Thank you for your feedback";
 					}
 				}
-			}
-			else{
-
-
+			}			
 		?>
-		<div class="section" id="contact">
+		<!-- <div class="section" id="contact">
 			<h1>contact</h1>
-			
 			<form action="contact.php" id="form" method="post" name="form">
 				<label>
 				<h2>NAME</h2><input type="text" name="name"><br>
@@ -59,10 +56,6 @@
 				<input id="send" name="submit" type="submit" value="Send Feedback">
 				</label>
 			</form>
-		</div>
-		<?php 
-			}
-	 	?>
-
+		</div> -->
 	</body>
 </html>
