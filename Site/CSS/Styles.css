@@ -134,3 +134,23 @@ nav ul li a:hover{
   color: white;
   padding: 15px 5px 0 5px;
 }
+#contact {
+  background-color: black;
+  color: #8DBC3A; /*GreendotGreen*/
+  text-align: center;
+}
+#contact h1 {
+  margin: 0;
+  font-size: 80px;
+}
+#contact span {
+  margin-top: 5px;
+  display: inline-block;
+  vertical-align: top;
+}
+#contact .textWrap {
+  padding-top: 0;
+}
+#contactLogo {
+  padding-left: 15px;
+}
