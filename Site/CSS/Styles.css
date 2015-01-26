@@ -155,3 +155,37 @@ nav ul li a:hover{
 #contactLogo {
   padding-left: 15px;
 }
+input {
+  background-color: black;
+  border: solid 2px #8DBC3A; /*greendot green*/
+  outline-color: #A3A3A3; /*gray*/
+  font-size: 24px;
+}
+textarea {
+  background-color: black;
+  border: solid 2px #8DBC3A; /*greendot green*/
+  outline-color: #A3A3A3; /*gray*/
+}
+input[type=submit] {
+  color: #8DBC3A; /*greendot green*/
+  font-size: 36px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #575757; /*dark gray*/
+}
+:-moz-placeholder {
+    color: #A3A3A3; /*gray*/
+}
+ 
+::-webkit-input-placeholder {
+    color: #A3A3A3; /*gray*/
+}
+#form {
+  text-align: left;
+  font-size: 24px;
+}
+#form h2 {
+  display: inline-block;
+  margin-right: 50px;
+}
