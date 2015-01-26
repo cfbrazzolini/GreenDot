@@ -40,6 +40,7 @@ h1 {
   width:  60%;
   margin: auto;
   height: 100%;
+  min-width: 860px;
 }
 #header {
   color: #8DBC3A; /*GreendotGreen*/
@@ -216,4 +217,11 @@ input[type=submit]:hover {
 #formdiv {
   margin-right: 15%;
   margin-left: 15%;
+}
+#calendarIcon {
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+#calendarIcon:hover {
+  opacity: 0.75;
 }
