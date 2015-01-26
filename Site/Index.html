@@ -59,14 +59,12 @@
           <h1><img id="contactLogo" src="img/contactLogo.png"></h1>
            <h1>contact</h1>
             <form action="contact.php" id="form" method="post" name="form">
-              <label>
-              <h2>NAME</h2><input type="text" name="name"><br>
-              </label>
-              <label>
-              <h2>EMAIL</h2><input type="text" name="email"><br>
-              </label>
-              <label>
-              <h2>MESSAGE</h2><textarea id="feedback" name="feedback"></textarea><br><br>
+              <label for="name">NAME</label>
+              <input type="text" name="name" placeholder="First, Last"><br>
+              <label for="email">EMAIL</label>
+              <input type="text" name="email" placeholder="somone@example.com"><br>
+              <label for="feedback">MESSAGE</label>
+              <textarea id="feedback" name="feedback" placeholder="Your feedback goes here..."></textarea><br>
               <input id="send" name="submit" type="submit" value="Send Feedback">
               </label>
             </form>
