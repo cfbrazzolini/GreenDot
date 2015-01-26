@@ -42,6 +42,36 @@ h1 {
   height: 100%;
   min-width: 860px;
 }
+.psimg {
+height:200px;
+width:200px;
+}
+#ps1{
+padding-left: 45px;
+padding-bottom: 20px;
+}
+#ps2 {
+padding-left: 75px;
+padding-bottom: 20px;
+}
+#ps3 {
+padding-left: 75px;
+padding-bottom: 20px;
+}
+#ps4{
+padding-left: 75px;
+padding-bottom: 20px;
+}
+#ps5{
+padding-left: 75px;
+padding-bottom: 20px;
+}
+#partners h1{
+text-align: center;
+margin:auto;
+font-size: 40px;
+}
+
 #header {
   color: #8DBC3A; /*GreendotGreen*/
   background-color: black;
@@ -58,6 +88,9 @@ h1 {
 }
 #section2 .left {
   text-align: center;
+}
+#section3 {
+  background-color: #8DBC3A; /*GreendotGreen*/
 }
 #events {
   font-size: 50px;
