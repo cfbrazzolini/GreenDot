@@ -118,6 +118,7 @@ nav ul li a:hover{
   text-align: center;
   background-color: black;
   color: #8DBC3A; /*GreendotGreen*/
+  width: 480px;
 }
 .testimonies img {
   height: 320px;
