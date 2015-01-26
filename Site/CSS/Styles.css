@@ -208,3 +208,7 @@ input[type=submit]:hover {
   text-align: left;
   font-size: 24px;
 }
+#formdiv {
+  margin-right: 15%;
+  margin-left: 15%;
+}
