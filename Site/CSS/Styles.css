@@ -63,6 +63,7 @@ h1 {
   font-size: 50px;
 }
 #getInvolved {
+  margin-top: 129px;
   font-size: 100px;
   color: #8DBC3A; /*GreendotGreen*/
 }
@@ -125,6 +126,7 @@ nav ul li a:hover{
   background-color: black;
   color: #8DBC3A; /*GreendotGreen*/
   width: 480px;
+  margin-top: 50px;
 }
 .testimonies img {
   height: 320px;
@@ -201,7 +203,9 @@ input[type=submit] {
   width: 314px;
 }
 input[type=submit]:hover {
-  background-color: #575757; /*dark gray*/
+  background-color: #8DBC3A; /*greendot green*/
+  color: white;
+  border-color: white;
 }
 :-moz-placeholder {
     color: #A3A3A3; /*gray*/
@@ -224,4 +228,7 @@ input[type=submit]:hover {
 }
 #calendarIcon:hover {
   opacity: 0.75;
+}
+.left h1 {
+  margin-top: 50px;
 }
