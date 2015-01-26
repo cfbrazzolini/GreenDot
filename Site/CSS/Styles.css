@@ -10,6 +10,9 @@ div {
   padding: 0;
   border: 0;
 }
+#mobileMenu {
+  display: none;
+}
 h1 {
   font-size: 50px;
 }
@@ -122,12 +125,15 @@ nav ul {
   height: 100%;
   width:100%;
 }
-nav ul li {
+nav ul .desktopMenu {
   display: block;
   float: left;
   width: 20%;
   height:100%;
   line-height: 100px;
+}
+nav ul #mobileHome {
+  display: none;
 }
 #logo {
   background-image: url(../img/logo.png);
@@ -264,4 +270,136 @@ input[type=submit]:hover {
 }
 .left h1 {
   margin-top: 50px;
+}
+@media only screen and (max-device-width: 480px) {
+  #header h2 {
+    font-size: 150px;
+    line-height: 175px;
+  }
+  .left h1 {
+    font-size: 125px;
+    line-height: 150px;
+    text-align: center;
+  }
+  .left {
+    float:none;
+    width: auto;
+    margin:0;
+  }
+  .right {
+    width: auto;
+    float: none;
+    margin: 0;
+  }
+  #menu {
+    position: absolute;
+  }
+  nav {
+    height: 125px;
+  }
+  #mobileMenu {
+    display:block;
+    font-size:100px;
+    text-align: center;
+    text-decoration: none;
+    color: #8DBC3A; /*greendot green*/
+  }
+  nav ul, nav:active ul { 
+    display: none;
+    position: absolute;
+    padding: 15px;
+    background: white;
+    border: 2px solid black;
+    top: 125px;
+    width: 50%;
+    height: auto;
+  }
+  #desktopLogo {
+    display: none;
+  }
+  nav ul .desktopMenu, nav ul #mobileHome {
+    display: block;
+    float: none;
+    width: 100%;
+    text-align: center;
+    height:auto;
+    line-height: 100px;
+  }
+  nav ul li a {
+    font-size: 50px;
+  }
+  nav:hover ul {
+    display: block;
+  }
+  #contactLogo {
+    display: none;
+  }
+  #formdiv {
+    width: auto;
+    margin: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  #contact h1 {
+    font-size: 150px;
+    margin-bottom: 25px;
+  }
+  label {
+    font-size: 75px;
+    height:100px;
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  input {
+    color: #8DBC3A; /*greendot green*/
+    font-family: Century Gothic light, Helvetica, Ariel, Sans-serif;
+    margin-bottom:15px;
+    background-color: black;
+    border: solid 5px #8DBC3A; /*greendot green*/
+    outline-color: #A3A3A3; /*gray*/
+    font-size: 75px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  textarea {
+    color: #8DBC3A; /*greendot green*/
+    padding-left:15px;
+    padding-right:15px;
+    font-family: Century Gothic light, Helvetica, Ariel, Sans-serif;
+    background-color: black;
+    border: solid 5px #8DBC3A; /*greendot green*/
+    outline-color: #A3A3A3; /*gray*/
+    width: 100%;
+    height: 500px;
+    resize: none;
+    font-size: 75px;
+  }
+  input[type=submit] {
+    font-family: Century Gothic light, Helvetica, Ariel, Sans-serif;
+    color: #8DBC3A; /*greendot green*/
+    font-size: 75px;
+    cursor: pointer;
+    width: 100%;
+  }
+  #eventsOnFacebook {
+    display:none;
+  }
+  #events {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #8DBC3A; /*greendot green*/
+    margin-bottom: 0;
+    padding: 0;
+    border-radius:25px;
+    color: white;
+    font-size: 75px;
+  }
+  #getInvolved {
+    margin-top: 50px;
+    margin-bottom: 0;
+    text-align: center;
+  }
 }
