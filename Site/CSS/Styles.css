@@ -155,21 +155,42 @@ nav ul li a:hover{
 #contactLogo {
   padding-left: 15px;
 }
+label {
+  font-size: 24px;
+  display: inline-block;
+  float: left;
+  width: 200px;
+}
 input {
+  font-family: Century Gothic light, Helvetica, Ariel, Sans-serif;
+  margin-bottom:15px;
   background-color: black;
   border: solid 2px #8DBC3A; /*greendot green*/
   outline-color: #A3A3A3; /*gray*/
-  font-size: 24px;
+  font-size: 18px;
+  width: 300px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 textarea {
+  padding-left:5px;
+  padding-right:5px;
+  font-family: Century Gothic light, Helvetica, Ariel, Sans-serif;
   background-color: black;
   border: solid 2px #8DBC3A; /*greendot green*/
   outline-color: #A3A3A3; /*gray*/
+  width: 300px;
+  height: 200px;
+  resize: none;
+  font-size: 18px;
 }
 input[type=submit] {
+  font-family: Century Gothic light, Helvetica, Ariel, Sans-serif;
   color: #8DBC3A; /*greendot green*/
-  font-size: 36px;
+  font-size: 24px;
   cursor: pointer;
+  margin-left: 200px;
+  width: 314px;
 }
 input[type=submit]:hover {
   background-color: #575757; /*dark gray*/
@@ -184,8 +205,4 @@ input[type=submit]:hover {
 #form {
   text-align: left;
   font-size: 24px;
-}
-#form h2 {
-  display: inline-block;
-  margin-right: 50px;
 }
