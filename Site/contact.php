@@ -26,7 +26,7 @@
 						echo "Invalid Sender's Email";
 					}
 					else{
-						$destination_email = "snishioka-healy16@my.whitworth.edu";
+						$destination_email = "Greendot@whitworth.edu";
 
 						
 						$message = $_POST['feedback'];
