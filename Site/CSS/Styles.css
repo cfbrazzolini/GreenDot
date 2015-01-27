@@ -349,134 +349,148 @@ div.transbox p, h3{
 }
 
 @media only screen and (max-device-width: 480px) {
+  .section{
+    min-width: 0;
+    padding: 0;
+    min-width: 0;
+    width: 100%;
+  }
+  #partners {
+    min-width: 0;
+  }
+  .textWrap {
+    width: auto;
+    min-width: 0;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
   #header h2 {
-    font-size: 150px;
-    line-height: 175px;
-  }
-  .left h1 {
-    font-size: 125px;
-    line-height: 150px;
-    text-align: center;
-  }
-  .left {
-    float:none;
-    width: auto;
-    margin:0;
-  }
-  .right {
-    width: auto;
-    float: none;
-    margin: 0;
-  }
-  #menu {
-    position: absolute;
-  }
-  nav {
-    height: 125px;
+    padding: 15px;
+    font-size: 170px;
+    line-height: 179px;
   }
   #mobileMenu {
-    display:block;
-    font-size:100px;
+    float: right;
+    display:inline-block;
+    height: 150px;
+    width: 150px;
     text-align: center;
-    text-decoration: none;
-    color: #8DBC3A; /*greendot green*/
+    font-size: 50px;
+    padding-top:15px;
+    padding-right: 15px;
+    line-height: 130px;
   }
-  nav ul, nav:active ul { 
-    display: none;
-    position: absolute;
-    padding: 15px;
-    background: white;
-    border: 2px solid black;
-    top: 125px;
-    width: 50%;
-    height: auto;
+  #section1 h1 {
+    font-size: 125px;
+  }
+  nav {
+    height: 165px;
   }
   #desktopLogo {
     display: none;
   }
-  nav ul .desktopMenu, nav ul #mobileHome {
-    display: block;
+  .left h1 {
+    text-align: center;
+  }
+  .left {
     float: none;
     width: 100%;
-    text-align: center;
-    height:auto;
-    line-height: 100px;
   }
-  nav ul li a {
+  .right {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+  .testimonies {
+    margin: auto;
+    width: 75%;
+    border-radius: 15px;
+  }
+  #greenDotStories p {
+    font-size: 100px;
+  }
+  #partners h1 {
+    font-size: 72px;
+  }
+  .section {
+    padding-bottom: 50px;
+  }
+  #section1 .right a img, #section1 .right h1 {
+    display: none;
+  }
+  #section2 .left > h1 {
+    display: none;
+  }
+  #section3 .left > h1 {
+    font-size: 100px;
+    text-align: center;
+  }
+  #contact h1 img {
+    display: none;
+  }
+  #contact h1 {
+    font-size: 125px;
+  }
+  .testimonies h1 {
+    font-size: 72px;
+  }
+  a.glink {
     font-size: 50px;
+    color: black;
+  }
+  nav ul, nav:active ul { 
+    height: auto;
+    width: 100%;
+    display: none;
+    position: absolute;
+    padding: 20px;
+    background: #fff;
+    border: 5px solid #444;
+    right: 20px;
+    top: 100px;
+  }
+  nav ul .desktopMenu, nav ul #mobileHome {
+    float: none;
+    display: block;
+    width: 100%;
+    height: 100px;
+  }
+  nav ul .desktopMenu a, nav ul #mobileHome a {
+    line-height: 60px;
+    font-size: 60px;
+  }
+  nav li {
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0;
   }
   nav:hover ul {
     display: block;
-  }
-  #contactLogo {
-    display: none;
-  }
-  #formdiv {
-    width: auto;
-    margin: 0;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  #contact h1 {
-    font-size: 150px;
-    margin-bottom: 25px;
+    width: 50%;
+    float: right;
+    z-index: 99;
   }
   label {
-    font-size: 75px;
-    height:100px;
+    font-size: 72px;
+    width: 100%;
+    height:auto;
     display: block;
-    width: 100%;
-    margin-bottom: 5px;
   }
-  input {
-    color: #8DBC3A; /*greendot green*/
-    font-family: Century Gothic light, Helvetica, Ariel, Sans-serif;
-    margin-bottom:15px;
-    background-color: black;
-    border: solid 5px #8DBC3A; /*greendot green*/
-    outline-color: #A3A3A3; /*gray*/
-    font-size: 75px;
+  input, textarea, input[type=submit] {
+    border-width: 5px;
+    font-size: 72px;
     width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  textarea {
-    color: #8DBC3A; /*greendot green*/
-    padding-left:15px;
-    padding-right:15px;
-    font-family: Century Gothic light, Helvetica, Ariel, Sans-serif;
-    background-color: black;
-    border: solid 5px #8DBC3A; /*greendot green*/
-    outline-color: #A3A3A3; /*gray*/
-    width: 100%;
-    height: 500px;
-    resize: none;
-    font-size: 75px;
-  }
-  input[type=submit] {
-    font-family: Century Gothic light, Helvetica, Ariel, Sans-serif;
-    color: #8DBC3A; /*greendot green*/
-    font-size: 75px;
-    cursor: pointer;
-    width: 100%;
-  }
-  #eventsOnFacebook {
-    display:none;
-  }
-  #events {
-    display: block;
-    width: 100%;
-    text-align: center;
-    background-color: #8DBC3A; /*greendot green*/
-    margin-bottom: 0;
     padding: 0;
-    border-radius:25px;
-    color: white;
-    font-size: 75px;
+    margin: 0 0 20px 0;
   }
-  #getInvolved {
-    margin-top: 50px;
-    margin-bottom: 0;
-    text-align: center;
+  #about h2 {
+    font-size: 100px;
+  }
+  #about h3 {
+    font-size: 72px;
+  }
+  #about p {
+    font-size: 50px;
   }
 }
