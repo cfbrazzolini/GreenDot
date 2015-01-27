@@ -86,6 +86,9 @@ a.glink:visited {
   display: inline-block;
   vertical-align: middle;
 }
+.psimg:hover {
+opacity:.6;
+}
 #partners {
   min-width: 1000px;
   background-color: white;
