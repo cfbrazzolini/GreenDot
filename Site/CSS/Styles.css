@@ -1,5 +1,5 @@
 html, body {
-  background-color: gray;
+  background-color: #8DBC3A; /*GreendotGreen*/
   margin: 0;
   padding: 0;
   border: 0;
@@ -17,22 +17,27 @@ h1 {
   font-size: 50px;
 }
 .section {
-  padding: 0 0 50px 0;
+  min-width: 1000px;
+  padding-bottom: 50px;
 }
 .left {
   display: block;
   float:left;
   width: 50%;
-  height: 100%;
+  min-width: 500px;
 }
 .left h1 {
   font-size: 72px;
   padding-right: 15px;
 }
+#section3 .left h1 {
+  text-align: right;
+}
 .right {
   display: block;
   float: right;
   width: 50%;
+  min-width: 500px;
 }
 .clear {
   clear:both;
@@ -43,31 +48,56 @@ h1 {
   width:  60%;
   margin: auto;
   height: 100%;
-  min-width: 860px;
+  min-width: 1112px;
 }
-.psimg {
-height:200px;
-width:200px;
+#greenDotStories {
+  text-decoration: none;
 }
-a.glink{ /* unvisited link */
-color:#8DBC3A; /*GreendotGreen*/
+#greenDotStories p {
+  color: #8DBC3A; /*GreendotGreen*/
+  font-size: 36px;
+  margin: 5px;
+}
+a.glink { /* unvisited link */
+  margin-bottom: 25px;
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 70%;
+  display: block;
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  color:#8DBC3A; /*GreendotGreen*/
+  text-decoration: none;
+  font-size: 36px;
+}
+a.glink:hover {
+  background-color: #8DBC3A; /*GreendotGreen*/
+  color: black;
+  font-weight: bold;
 }
 /* visited link */
-a.glink {
-    color: #8DBC3A;
+a.glink:visited {
+    color: #68941B;
 }
-#ps{
-width:18%;
-margin:10px;
+.psimg{
+  width:17%;
+  margin:10px;
+  display: inline-block;
+  vertical-align: middle;
 }
-
+#partners {
+  min-width: 1000px;
+  background-color: white;
+}
 #partners h1{
-text-align: center;
-margin:auto;
-font-size: 40px;
+  margin: 0;
+  text-align: center;
+  font-size: 40px;
+  padding: 10px;
 }
 #gdstory{
-width:95%;
+  width:95%;
 }
 #header {
   color: #8DBC3A; /*GreendotGreen*/
@@ -107,7 +137,6 @@ width:95%;
 }
 nav {
   height: 100px;
-  width:100%;
   position: relative;
   top:0;
 }
@@ -197,13 +226,14 @@ nav ul li a:hover{
   padding-left: 15px;
 }
 label {
+  width:20%;
   font-size: 24px;
   height:30px;
   display: inline-block;
   float: left;
-  width: 200px;
 }
 input {
+  width:75%;
   color: #8DBC3A; /*greendot green*/
   font-family: Century Gothic light, Helvetica, Ariel, Sans-serif;
   margin-bottom:15px;
@@ -211,11 +241,11 @@ input {
   border: solid 2px #8DBC3A; /*greendot green*/
   outline-color: #A3A3A3; /*gray*/
   font-size: 18px;
-  width: 300px;
   padding-left: 5px;
   padding-right: 5px;
 }
 textarea {
+  width:75%;
   color: #8DBC3A; /*greendot green*/
   padding-left:5px;
   padding-right:5px;
@@ -223,17 +253,19 @@ textarea {
   background-color: black;
   border: solid 2px #8DBC3A; /*greendot green*/
   outline-color: #A3A3A3; /*gray*/
-  width: 300px;
   height: 200px;
   resize: none;
   font-size: 18px;
+  margin-bottom: 15px;
 }
 input[type=submit] {
   font-family: Century Gothic light, Helvetica, Ariel, Sans-serif;
   color: #8DBC3A; /*greendot green*/
   font-size: 24px;
   cursor: pointer;
-  width: 314px;
+  width: 50%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 input[type=submit]:hover {
   background-color: #8DBC3A; /*greendot green*/
@@ -265,6 +297,45 @@ input[type=submit]:hover {
 .left h1 {
   margin-top: 50px;
 }
+#about {
+  color: #8DBC3A;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+#about h2 {
+  background-color: black;
+  color: #8DBC3A; /*greendot green*/;
+  padding: 15px;
+}
+
+#about h3 {
+  font-size: 36px;
+  color: #8DBC3A; /*greendot green*/
+}
+#about p {
+  font-size: 24px;
+}
+div.transbox
+{
+  margin: 75px;
+  background-color: #ffffff;
+  opacity:0.9;
+  filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+div.transbox h2{
+  color: black;
+  font-size: 40px;
+  text-align: center;
+}
+
+div.transbox p, h3{
+  color: black;
+  text-align: left;
+  margin: auto 75px;
+  padding: 10px;
+}
+
 @media only screen and (max-device-width: 480px) {
   #header h2 {
     font-size: 150px;
