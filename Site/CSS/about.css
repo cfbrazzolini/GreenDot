@@ -168,6 +168,13 @@ nav ul li a:hover{
 #about {
 color: #8DBC3A;
 }
+
+#about h3 {
+font-size: 30px;
+}
+#about p {
+font-size: 18px;
+}
 div.transbox
 {
   margin: 75px;
