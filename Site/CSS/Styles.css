@@ -49,32 +49,26 @@ h1 {
 height:200px;
 width:200px;
 }
-#ps1{
-padding-left: 45px;
-padding-bottom: 20px;
+a.glink{ /* unvisited link */
+color:#8DBC3A; /*GreendotGreen*/
 }
-#ps2 {
-padding-left: 75px;
-padding-bottom: 20px;
+/* visited link */
+a.glink {
+    color: #8DBC3A;
 }
-#ps3 {
-padding-left: 75px;
-padding-bottom: 20px;
+#ps{
+width:18%;
+margin:10px;
 }
-#ps4{
-padding-left: 75px;
-padding-bottom: 20px;
-}
-#ps5{
-padding-left: 75px;
-padding-bottom: 20px;
-}
+
 #partners h1{
 text-align: center;
 margin:auto;
 font-size: 40px;
 }
-
+#gdstory{
+width:95%;
+}
 #header {
   color: #8DBC3A; /*GreendotGreen*/
   background-color: black;
