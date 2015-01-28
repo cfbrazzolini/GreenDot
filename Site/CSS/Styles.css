@@ -81,7 +81,7 @@ a.glink:visited {
     color: #68941B;
 }
 .psimg{
-  width:17%;
+  width:14%;
   margin:10px;
   display: inline-block;
   vertical-align: middle;
@@ -92,6 +92,7 @@ opacity:.6;
 #partners {
   min-width: 1000px;
   background-color: white;
+  text-align: center;
 }
 #partners h1{
   margin: 0;
@@ -370,6 +371,8 @@ div.transbox p, h3{
     line-height: 179px;
   }
   #mobileMenu {
+    text-decoration:none;
+    color: black;
     float: right;
     display:inline-block;
     height: 150px;
@@ -447,7 +450,7 @@ div.transbox p, h3{
     background: #fff;
     border: 5px solid #444;
     right: 20px;
-    top: 100px;
+    top: 160px;
   }
   nav ul .desktopMenu, nav ul #mobileHome {
     float: none;
